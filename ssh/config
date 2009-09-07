@@ -1,0 +1,7 @@
+Host uns
+  HostName staging.unglobalcompact.railsmachina.com
+  User rails
+
+Host unp
+  HostName unglobalcompact.railsmachina.com
+  User rails
