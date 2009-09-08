@@ -44,8 +44,4 @@ TERM=xterm-color
 LSCOLORS=gxgxcxdxbxegedabagacad  # cyan directories
 #PS1='\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;36m\]\w\\$(vcprompt)[\033[00m\]\$ '
 
-# Update the command prompt to be <user>:<current_directory>(git_branch) >
-# Note that the git branch is given a special color
-#PS1="\n\u:\w \[$EBLACK\]\$(vcprompt)\[$NO_COLOR\] \n→ "
-
 PS1="\[$EGREEN\]\u@\h\[$ECYAN\]:\[$ECYAN\]\w \[$WHITE\]\$(vcprompt) \n→ "
