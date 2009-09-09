@@ -5,6 +5,8 @@ alias reload='source ~/code/dotfiles/bash/aliases'
 alias ea='mate -w ~/code/dotfiles/bash/aliases && reload' # Edit aliases
 alias ee="mate ~/code/dotfiles/bash/env"
 
+alias untar='tar xzvf'
+
 # Quicker cd
 function cr() {
  cd ~/code/$*
@@ -92,6 +94,8 @@ alias etr="mate app config lib db schema public spec test vendor/gems vendor/plu
 
 # Ruby
 alias r="rake"
+alias rdm="rake db:migrate"
+alias rdr="rake db:rollback"
 
 # Rails
 alias rp='touch tmp/restart.txt'
