@@ -11,6 +11,7 @@ alias untar='tar xzvf'
 function cr() {
  cd ~/code/$*
 }
+alias cdu='cd ~/code/ungc'
 
 # Common -- Some are from Damian Conway
 alias a='ls -A' # -A all except literal . ..
@@ -96,6 +97,8 @@ alias etr="mate app config lib db schema public spec test vendor/gems vendor/plu
 alias r="rake"
 alias rdm="rake db:migrate"
 alias rdr="rake db:rollback"
+alias rtu="rake test:units"
+alias rtf="rake test:functionals"
 
 # Rails
 alias rp='touch tmp/restart.txt'
