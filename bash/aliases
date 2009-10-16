@@ -99,6 +99,7 @@ alias rdm="rake db:migrate"
 alias rdr="rake db:rollback"
 alias rtu="rake test:units"
 alias rtf="rake test:functionals"
+alias rtr="rake test:recent"
 
 # Rails
 alias rp='touch tmp/restart.txt'
