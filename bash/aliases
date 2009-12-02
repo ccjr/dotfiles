@@ -12,6 +12,7 @@ function cr() {
  cd ~/code/$*
 }
 alias cdu='cd ~/code/ungc'
+alias cdm='cd ~/code/mobile-au'
 
 # Common -- Some are from Damian Conway
 alias a='ls -A' # -A all except literal . ..
@@ -31,7 +32,6 @@ alias lh="ls -lh"
 alias ll='ls -lhG'  # -l long listing, human readable, no group info
 alias lt='ls -lt' # sort with recently modified first
 alias md='mkdir -p'
-alias s='cd ..'   # up one dir
 alias ..='cd ..'
 
 function take() { 
@@ -108,5 +108,6 @@ alias sg='./script/generate'
 alias sp='./script/plugin'
 alias ss='./script/server'
 alias sr='./script/runner'
+alias sdb='./script/dbconsole'
 alias tl='tail -f log/*.log'
 alias ts='thin start'
